@@ -23,3 +23,10 @@ RUN \
 
 COPY \
     ./res/apache2/000-default.conf /etc/apache2/sites-available/000-default.conf
+
+
+WORKDIR \
+    /srv/system/djapp/
+
+COPY \
+    ./djapp/ /srv/system/djapp/
