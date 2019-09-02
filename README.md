@@ -1,6 +1,6 @@
 # docker-djmap-base
 
-This is ad docker project to create container with `Apache2`, `Python3`/`Django2`, `Mapserver7` and `GDAL2`.
+This is a docker project to create container with `Apache2`, `Python3`/`Django2`, `Mapserver7` and `GDAL2`.
 
 ## Create container
 ```bash
