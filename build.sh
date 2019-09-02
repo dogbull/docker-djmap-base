@@ -2,6 +2,5 @@
 
 set -e
 
-docker build -t dr.epinet.kr/djmap-base .
-docker push dr.epinet.kr/djmap-base
-
+docker build -t epinet/djmap-base .
+docker push epinet/djmap-base
